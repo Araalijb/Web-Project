@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Web and Graphics Design</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="script/script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Web & Graphics Portfolio</h1>
+    
+      <nav>
+        <ul>
+            
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact" class="container">
+      <h2>Contact Us</h2>
+      <div class="cover-image">
+        <img src="cover-image1.jpg" alt="Cover Image">
+      </div>
+      <p>If you have any inquiries or project requests, please fill out the form below or reach out to us via email or social media. We look forward to hearing from you and discussing how we can help with your web and graphic design needs.</p>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+      <p>You can also reach us at:</p>
+      <p>Email: contact@webgraphicsdesign.com</p>
+      <p>Follow us on social media for the latest updates and insights:</p>
+      <p>Twitter | Facebook | Instagram</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Web & Graphics Portfolio. All rights reserved.</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+    <p>Current Time: <span id="currentTime"></span></p>
+  </footer>
+</body>
+</html>
